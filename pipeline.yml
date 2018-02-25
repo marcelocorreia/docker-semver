@@ -24,7 +24,7 @@ resources:
       access_token: {{github_token}}
 
 jobs:
-  - name: -release
+  - name: release
     serial: true
     plan:
       - get: docker-repo
