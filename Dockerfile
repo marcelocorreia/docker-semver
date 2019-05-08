@@ -16,8 +16,6 @@ RUN apk add --no-cache --update \
     tzdata \
     sudo
 
-
-
 RUN rm /var/cache/apk/*
 
 RUN npm install semver -g
